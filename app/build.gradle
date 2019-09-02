@@ -6,6 +6,7 @@ android {
         targetSdkVersion 28
         minSdkVersion 18
         vectorDrawables.useSupportLibrary true
+        multiDexEnabled = true
 
         applicationId "com.empire.ac_dmc_dashboard"
         versionCode 1

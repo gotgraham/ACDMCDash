@@ -12,6 +12,7 @@
 
     <!-- mipmap/ic_launcher created with Android Studio -> New -> Image Asset using @color/colorPrimaryDark as background color -->
     <application
+        android:name="android.support.multidex.MultiDexApplication"
         android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"

@@ -4,6 +4,7 @@ ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:
 INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
 INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/39ac6b09b71895c170e23a448c3e72fc/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.kai-morich:usb-serial-for-android:1.7.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/1e9dbeec15295fa24ddf32fbf36b0163/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/AndroidManifest.xml:17:1-22:12
@@ -114,6 +115,8 @@ uses-sdk
 INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
 INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/39ac6b09b71895c170e23a448c3e72fc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/39ac6b09b71895c170e23a448c3e72fc/AndroidManifest.xml:20:5-43
 MERGED from [com.github.kai-morich:usb-serial-for-android:1.7.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/1e9dbeec15295fa24ddf32fbf36b0163/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.kai-morich:usb-serial-for-android:1.7.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/1e9dbeec15295fa24ddf32fbf36b0163/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:20:5-44
