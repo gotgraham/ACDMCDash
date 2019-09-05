@@ -68,12 +68,12 @@
         "source": "/Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/Users/jacobgraham/code/ACDMCDash/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/Users/jacobgraham/code/ACDMCDash/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/jacobgraham/code/ACDMCDash/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/jacobgraham/code/ACDMCDash/app/build/intermediates/res/merged/debug/drawable_design_bottom_navigation_item_background.xml.flat",

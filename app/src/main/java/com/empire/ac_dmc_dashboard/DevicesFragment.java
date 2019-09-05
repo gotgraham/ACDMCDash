@@ -143,6 +143,7 @@ public class DevicesFragment extends ListFragment {
             Toast.makeText(getActivity(), "no driver", Toast.LENGTH_SHORT).show();
         } else {
             Bundle args = new Bundle();
+
             args.putInt("device", item.device.getDeviceId());
             args.putInt("port", item.port);
             args.putInt("baud", baudRate);
