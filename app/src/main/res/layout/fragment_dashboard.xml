@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+
+    <TableLayout
+        android:layout_width="692dp"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGBT 1"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IGBT 2"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IGBT 3"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:sv_maxSpeed="125"
+                app:sv_minSpeed="0"
+                app:sv_speedTextColor="#ffffff"
+                app:sv_speedTextFormat="FLOAT"
+                app:sv_speedTextSize="18sp"
+                app:sv_textColor="#ffffff"
+                app:sv_tickNumber="6"
+                app:sv_unit="°C"
+                app:sv_unitTextColor="#ffffff"
+                app:sv_unitTextSize="18sp"
+                app:sv_unitUnderSpeedText="false"
+                app:sv_withTremble="false" />
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:sv_maxSpeed="125"
+                app:sv_minSpeed="0"
+                app:sv_speedTextColor="#ffffff"
+                app:sv_speedTextFormat="FLOAT"
+                app:sv_speedTextSize="18sp"
+                app:sv_textColor="#ffffff"
+                app:sv_tickNumber="6"
+                app:sv_unit="°C"
+                app:sv_unitTextColor="#ffffff"
+                app:sv_unitTextSize="18sp"
+                app:sv_unitUnderSpeedText="false"
+                app:sv_withTremble="false" />
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:sv_maxSpeed="125"
+                app:sv_minSpeed="0"
+                app:sv_speedTextColor="#ffffff"
+                app:sv_speedTextFormat="FLOAT"
+                app:sv_speedTextSize="18sp"
+                app:sv_textColor="#ffffff"
+                app:sv_tickNumber="6"
+                app:sv_unit="°C"
+                app:sv_unitTextColor="#ffffff"
+                app:sv_unitTextSize="18sp"
+                app:sv_unitUnderSpeedText="false"
+                app:sv_withTremble="false" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/label4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGBT 4"
+                android:textAlignment="inherit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGBT 5"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IGBT 6"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:sv_maxSpeed="125"
+                app:sv_minSpeed="0"
+                app:sv_speedTextColor="#ffffff"
+                app:sv_speedTextFormat="FLOAT"
+                app:sv_speedTextSize="18sp"
+                app:sv_textColor="#ffffff"
+                app:sv_tickNumber="6"
+                app:sv_unit="°C"
+                app:sv_unitTextColor="#ffffff"
+                app:sv_unitTextSize="18sp"
+                app:sv_unitUnderSpeedText="false"
+                app:sv_withTremble="false" />
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:sv_maxSpeed="125"
+                app:sv_minSpeed="0"
+                app:sv_speedTextColor="#ffffff"
+                app:sv_speedTextFormat="FLOAT"
+                app:sv_speedTextSize="18sp"
+                app:sv_textColor="#ffffff"
+                app:sv_tickNumber="6"
+                app:sv_unit="°C"
+                app:sv_unitTextColor="#ffffff"
+                app:sv_unitTextSize="18sp"
+                app:sv_unitUnderSpeedText="false"
+                app:sv_withTremble="false" />
+
+            <com.github.anastr.speedviewlib.SpeedView
+                android:id="@+id/speedView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                app:sv_maxSpeed="125"
+                app:sv_minSpeed="0"
+                app:sv_speedTextColor="#ffffff"
+                app:sv_speedTextFormat="FLOAT"
+                app:sv_speedTextSize="18sp"
+                app:sv_textColor="#ffffff"
+                app:sv_tickNumber="6"
+                app:sv_unit="°C"
+                app:sv_unitTextColor="#ffffff"
+                app:sv_unitTextSize="18sp"
+                app:sv_unitUnderSpeedText="false"
+                app:sv_withTremble="false" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dcVoltage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#25FA0E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dcTemp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#25FA0E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dcTemp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#25FA0E"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
+
+
+

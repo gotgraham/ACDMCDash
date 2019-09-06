@@ -1,8 +1,6 @@
 package com.empire.ac_dmc_dashboard;
 
-import android.app.AlertDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbManager;
 import android.os.Bundle;
@@ -98,20 +96,8 @@ public class DevicesFragment extends ListFragment {
         if(id == R.id.refresh) {
             refresh();
             return true;
-        } else if (id ==R.id.baud_rate) {
-            final String[] baudRates = getResources().getStringArray(R.array.baud_rates);
-            int pos = java.util.Arrays.asList(baudRates).indexOf(String.valueOf(baudRate));
-            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-            builder.setTitle("Baud rate");
-            builder.setSingleChoiceItems(baudRates, pos, new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int item) {
-                    baudRate = Integer.valueOf(baudRates[item]);
-                    dialog.dismiss();
-                }
-            });
-            builder.create().show();
-            return true;
-        } else {
+        }
+        else {
             return super.onOptionsItemSelected(item);
         }
     }
@@ -147,9 +133,12 @@ public class DevicesFragment extends ListFragment {
             args.putInt("device", item.device.getDeviceId());
             args.putInt("port", item.port);
             args.putInt("baud", baudRate);
-            Fragment fragment = new TerminalFragment();
-            fragment.setArguments(args);
-            getFragmentManager().beginTransaction().replace(R.id.fragment, fragment, "terminal").addToBackStack(null).commit();
+
+            Toast.makeText(getActivity(), "D: " + item.device.getDeviceId() + ", P: " + item.port, Toast.LENGTH_SHORT).show();
+
+//            Fragment fragment = new DashboardFragment();
+//            fragment.setArguments(args);
+//            getFragmentManager().beginTransaction().replace(R.id.fragment, fragment, "dashboard").addToBackStack(null).commit();
         }
     }
 
