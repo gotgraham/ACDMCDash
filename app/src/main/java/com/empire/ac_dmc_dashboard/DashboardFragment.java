@@ -76,9 +76,9 @@ public class DashboardFragment extends Fragment implements ServiceConnection, Se
     super.onCreate(savedInstanceState);
     setHasOptionsMenu(false);
     setRetainInstance(true);
-    deviceId = 1075; //getArguments().getInt("device");
-    portNum = 0; //getArguments().getInt("port");
-    baudRate = 19200; //getArguments().getInt("baud");
+    deviceId = getArguments().getInt("device");
+    portNum = getArguments().getInt("port");
+    baudRate = getArguments().getInt("baud");
   }
 
   @Override

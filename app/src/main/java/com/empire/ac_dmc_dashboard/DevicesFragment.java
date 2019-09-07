@@ -134,11 +134,10 @@ public class DevicesFragment extends ListFragment {
             args.putInt("port", item.port);
             args.putInt("baud", baudRate);
 
-            Toast.makeText(getActivity(), "D: " + item.device.getDeviceId() + ", P: " + item.port, Toast.LENGTH_SHORT).show();
+            Fragment fragment = new DashboardFragment();
+            fragment.setArguments(args);
 
-//            Fragment fragment = new DashboardFragment();
-//            fragment.setArguments(args);
-//            getFragmentManager().beginTransaction().replace(R.id.fragment, fragment, "dashboard").addToBackStack(null).commit();
+            getFragmentManager().beginTransaction().replace(R.id.fragment, fragment, "dashboard").addToBackStack(null).commit();
         }
     }
 
