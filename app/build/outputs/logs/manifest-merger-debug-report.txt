@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/39ac6b09b71895c170e23a448c3e72fc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.kai-morich:usb-serial-for-android:1.7.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/1e9dbeec15295fa24ddf32fbf36b0163/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.anastr:speedviewlib:1.3.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8a527fde8b527b926df2010efaf96d18/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0de1baa5f1ea28e121c65856fb6ed51a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/d4fd92c582b5fa7e6285609de5bc661d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/aa549752449376e560e66606fdbfcf24/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/5b1881b7a7cb60a4b1ed67b29ab41aa5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/71b85eeafef634afb8322c8158c9a563/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/5cb266d13cab504c7036df3a9d87a56f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/43ab3cb21dd78bee3421482355f357f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/965917706e22cfe06a359067aad2bf87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/dd60149240181e685c49de924fb3943b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/00618d4a1546669815b96002915b57cf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/108826141d51d3f50296b22582febbc0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6ddb28c76af8c3d90b4cd924391781ff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/961778272f0236ad692f1ae586c894f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7764059fbe451dd84254498621b3eff3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/3af082fb467e1303aa1b7cc81fc61c10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6a9ce8ce729149337f43a9378564d2ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f05419b8f57680541e10af2b82d5ae86/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a4ca6fcf153dfeee7751bf70da0aa9bc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7ee3b186f66aed94ee23290826461451/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/e9b4152efc8fb89989bc5958707c83c6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/4c2308c8db357f4ee92e4c9bb1b2ee7d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0dd3291465cc3923400203892d4b441d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/783e91beff48401e74b5bd22f97a427c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f9ecc291df1102ffdcdb3afb9a71370f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/d0a1b026ecbb59b2e601ad6b22580a29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8be551713c633f0763fe262e4a37cc7b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7d672549b0e6a44c4434a8349b282882/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6e209ae1238a7d8ca5ae42c370752a36/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a22b2dcbe16a5b4f6b4d26f09efa9843/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:4:5-42
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:6:22-74
+application
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:9:5-30:19
+MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:22:5-20
+MERGED from [com.github.anastr:speedviewlib:1.3.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8a527fde8b527b926df2010efaf96d18/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.anastr:speedviewlib:1.3.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8a527fde8b527b926df2010efaf96d18/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0de1baa5f1ea28e121c65856fb6ed51a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0de1baa5f1ea28e121c65856fb6ed51a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f05419b8f57680541e10af2b82d5ae86/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f05419b8f57680541e10af2b82d5ae86/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a4ca6fcf153dfeee7751bf70da0aa9bc/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a4ca6fcf153dfeee7751bf70da0aa9bc/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f05419b8f57680541e10af2b82d5ae86/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:11:9-41
+	tools:ignore
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:13:9-60
+	android:icon
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:12:9-40
+activity#com.empire.ac_dmc_dashboard.MainActivity
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:14:9-28:20
+	android:label
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:16:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:17:13-67
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:18:13-21:29
+action#android.intent.action.MAIN
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:20:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:22:13-24:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:23:17-90
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:23:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:25:13-27:61
+	android:resource
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:27:17-58
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:26:17-79
+service#com.empire.ac_dmc_dashboard.SerialService
+ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:29:9-50
+	android:name
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml:29:18-47
+uses-sdk
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/39ac6b09b71895c170e23a448c3e72fc/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/39ac6b09b71895c170e23a448c3e72fc/AndroidManifest.xml:20:5-43
+MERGED from [com.github.kai-morich:usb-serial-for-android:1.7.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/1e9dbeec15295fa24ddf32fbf36b0163/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.kai-morich:usb-serial-for-android:1.7.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/1e9dbeec15295fa24ddf32fbf36b0163/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/18bb166f482b2b5626e821b296113be2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/131e6300601e4817e9c51530b78a229b/AndroidManifest.xml:20:5-44
+MERGED from [com.github.anastr:speedviewlib:1.3.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8a527fde8b527b926df2010efaf96d18/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.anastr:speedviewlib:1.3.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8a527fde8b527b926df2010efaf96d18/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0de1baa5f1ea28e121c65856fb6ed51a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0de1baa5f1ea28e121c65856fb6ed51a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/d4fd92c582b5fa7e6285609de5bc661d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/d4fd92c582b5fa7e6285609de5bc661d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/aa549752449376e560e66606fdbfcf24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/aa549752449376e560e66606fdbfcf24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/5b1881b7a7cb60a4b1ed67b29ab41aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/5b1881b7a7cb60a4b1ed67b29ab41aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/71b85eeafef634afb8322c8158c9a563/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/71b85eeafef634afb8322c8158c9a563/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/5cb266d13cab504c7036df3a9d87a56f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/5cb266d13cab504c7036df3a9d87a56f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/43ab3cb21dd78bee3421482355f357f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/43ab3cb21dd78bee3421482355f357f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/965917706e22cfe06a359067aad2bf87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/965917706e22cfe06a359067aad2bf87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/dd60149240181e685c49de924fb3943b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/dd60149240181e685c49de924fb3943b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/00618d4a1546669815b96002915b57cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/00618d4a1546669815b96002915b57cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/108826141d51d3f50296b22582febbc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/108826141d51d3f50296b22582febbc0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6ddb28c76af8c3d90b4cd924391781ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6ddb28c76af8c3d90b4cd924391781ff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/961778272f0236ad692f1ae586c894f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/961778272f0236ad692f1ae586c894f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7764059fbe451dd84254498621b3eff3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7764059fbe451dd84254498621b3eff3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/3af082fb467e1303aa1b7cc81fc61c10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/3af082fb467e1303aa1b7cc81fc61c10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6a9ce8ce729149337f43a9378564d2ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6a9ce8ce729149337f43a9378564d2ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f05419b8f57680541e10af2b82d5ae86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f05419b8f57680541e10af2b82d5ae86/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a4ca6fcf153dfeee7751bf70da0aa9bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a4ca6fcf153dfeee7751bf70da0aa9bc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7ee3b186f66aed94ee23290826461451/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7ee3b186f66aed94ee23290826461451/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/e9b4152efc8fb89989bc5958707c83c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/e9b4152efc8fb89989bc5958707c83c6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/4c2308c8db357f4ee92e4c9bb1b2ee7d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/4c2308c8db357f4ee92e4c9bb1b2ee7d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0dd3291465cc3923400203892d4b441d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/0dd3291465cc3923400203892d4b441d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/783e91beff48401e74b5bd22f97a427c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/783e91beff48401e74b5bd22f97a427c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f9ecc291df1102ffdcdb3afb9a71370f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/f9ecc291df1102ffdcdb3afb9a71370f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/d0a1b026ecbb59b2e601ad6b22580a29/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/d0a1b026ecbb59b2e601ad6b22580a29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8be551713c633f0763fe262e4a37cc7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/8be551713c633f0763fe262e4a37cc7b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7d672549b0e6a44c4434a8349b282882/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/7d672549b0e6a44c4434a8349b282882/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6e209ae1238a7d8ca5ae42c370752a36/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/6e209ae1238a7d8ca5ae42c370752a36/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a22b2dcbe16a5b4f6b4d26f09efa9843/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/jacobgraham/.gradle/caches/transforms-2/files-2.1/a22b2dcbe16a5b4f6b4d26f09efa9843/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jacobgraham/code/ACDMCDash/app/src/main/AndroidManifest.xml

@@ -35,16 +35,24 @@ public class DashboardFragment extends Fragment implements ServiceConnection, Se
 
   private int deviceId, portNum, baudRate;
 
-  private SpeedView igbtTemp1;
-  private SpeedView igbtTemp2;
-  private SpeedView igbtTemp3;
-  private SpeedView igbtTemp4;
-  private SpeedView igbtTemp5;
-  private SpeedView igbtTemp6;
+  private TextView igbtTemp1;
+  private TextView igbtTemp2;
+  private TextView igbtTemp3;
+  private TextView igbtTemp4;
+  private TextView igbtTemp5;
+  private TextView igbtTemp6;
+
+  // private TextView reqAmps;
+  private TextView maxAmps;
+  private TextView fieldWeakening;
+  // private TextView eRPM;
+
+  private SpeedView phaseAmps;
 
   private TextView dcVoltage;
   private TextView dcTemp1;
   private TextView dcTemp2;
+  private TextView dcAmps;
 
   private SerialSocket socket;
   private SerialService service;
@@ -155,16 +163,23 @@ public class DashboardFragment extends Fragment implements ServiceConnection, Se
   public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
     View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
 
-    igbtTemp1 = view.findViewById(R.id.speedView1);
-    igbtTemp2 = view.findViewById(R.id.speedView2);
-    igbtTemp3 = view.findViewById(R.id.speedView3);
-    igbtTemp4 = view.findViewById(R.id.speedView4);
-    igbtTemp5 = view.findViewById(R.id.speedView5);
-    igbtTemp6 = view.findViewById(R.id.speedView6);
+    igbtTemp1 = view.findViewById(R.id.igbt1);
+    igbtTemp2 = view.findViewById(R.id.igbt2);
+    igbtTemp3 = view.findViewById(R.id.igbt3);
+    igbtTemp4 = view.findViewById(R.id.igbt4);
+    igbtTemp5 = view.findViewById(R.id.igbt5);
+    igbtTemp6 = view.findViewById(R.id.igbt6);
+
+    //reqAmps = view.findViewById(R.id.reqAmps);
+    fieldWeakening = view.findViewById(R.id.fieldWeakening);
+    phaseAmps = view.findViewById(R.id.phaseAmps);
+    maxAmps = view.findViewById(R.id.maxAmps);
+    //eRPM = view.findViewById(R.id.eRPM);
 
     dcVoltage = view.findViewById(R.id.dcVoltage);
     dcTemp1 = view.findViewById(R.id.dcTemp1);
     dcTemp2 = view.findViewById(R.id.dcTemp2);
+    dcAmps = view.findViewById(R.id.dcAmps);
 
     updateGauges();
 
@@ -173,16 +188,24 @@ public class DashboardFragment extends Fragment implements ServiceConnection, Se
 
   // Update the gauges with the new temp data
   private void updateGauges() {
-    igbtTemp1.speedTo(muxData.igbt1, 1000);
-    igbtTemp2.speedTo(muxData.igbt2, 1000);
-    igbtTemp3.speedTo(muxData.igbt3, 1000);
-    igbtTemp4.speedTo(muxData.igbt4, 1000);
-    igbtTemp5.speedTo(muxData.igbt5, 1000);
-    igbtTemp6.speedTo(muxData.igbt6, 1000);
+    igbtTemp1.setText(String.format("%.01f F", muxData.igbt1));
+    igbtTemp2.setText(String.format("%.01f F", muxData.igbt2));
+    igbtTemp3.setText(String.format("%.01f F", muxData.igbt3));
+    igbtTemp4.setText(String.format("%.01f F", muxData.igbt4));
+    igbtTemp5.setText(String.format("%.01f F", muxData.igbt5));
+    igbtTemp6.setText(String.format("%.01f F", muxData.igbt6));
 
-    dcVoltage.setText(muxData.dcDcVoltage + "V");
-    dcTemp1.setText(muxData.dcDcTemp1 + "°F");
-    dcTemp2.setText(muxData.dcDcTemp2 + "°F");
+    //reqAmps.setText(String.format("%.01f A", muxData.reqPhaseAmps));
+    maxAmps.setText(String.format("%.01f A", muxData.maxAmps));
+    fieldWeakening.setText(String.format("%.01f A", muxData.fieldWeakening));
+    //eRPM.setText(String.format("%d", (int) muxData.eRPM));
+
+    phaseAmps.speedTo(muxData.phaseAmps, 1000);
+
+    dcVoltage.setText(String.format("%.01f V", muxData.dcDcVoltage));
+    dcAmps.setText(String.format("%.01f A", muxData.dcDcCurrent));
+    dcTemp1.setText(String.format("%.01f F", muxData.dcDcTemp1));
+    dcTemp2.setText(String.format("%.01f F", muxData.dcDcTemp2));
   }
 
   /*

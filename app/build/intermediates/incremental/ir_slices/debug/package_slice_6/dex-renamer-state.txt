@@ -1,0 +1,4 @@
+#Sat Dec 21 14:44:43 PST 2019
+base.0=/Users/jacobgraham/code/ACDMCDash/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex

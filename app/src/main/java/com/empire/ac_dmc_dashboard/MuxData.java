@@ -19,6 +19,11 @@ public class MuxData {
     igbt4 = 0;
     igbt5 = 0;
     igbt6 = 0;
+
+    phaseAmps = 0;
+    reqPhaseAmps = 0;
+    maxAmps = 0;
+    fieldWeakening = 0;
   }
 
   // Process the given bytes
@@ -55,7 +60,7 @@ public class MuxData {
       }
 
       // Have we received a full packet?
-      if (receivedBytes.size() >= 44) {
+      if (receivedBytes.size() >= 64) {
         decodePacket();
       }
     }
@@ -65,23 +70,55 @@ public class MuxData {
   private void decodePacket() {
     ByteBuffer packet = ByteBuffer.wrap(receivedBytes.toByteArray());
     if (packet.getInt(0) == 0xAABBCCDD){
-      dcDcTemp1 = decodeValue(packet.getInt(4));
-      dcDcTemp2 = decodeValue(packet.getInt(8));
-      dcDcVoltage = decodeValue(packet.getInt(12));
-      dcDcCurrent = decodeValue(packet.getInt(16));
+      dcDcTemp1 = decodeTemp(packet.getInt(4));
+      dcDcTemp2 = decodeTemp(packet.getInt(8));
+      dcDcVoltage = decodeTemp(packet.getInt(12));
+      dcDcCurrent = decodeTemp(packet.getInt(16));
 
-      igbt1 = decodeValue(packet.getInt(20));
-      igbt2 = decodeValue(packet.getInt(24));
-      igbt3 = decodeValue(packet.getInt(28));
-      igbt4 = decodeValue(packet.getInt(32));
-      igbt5 = decodeValue(packet.getInt(36));
-      igbt6 = decodeValue(packet.getInt(40));
+      igbt1 = decodeTemp(packet.getInt(20));
+      igbt2 = decodeTemp(packet.getInt(24));
+      igbt3 = decodeTemp(packet.getInt(28));
+      igbt4 = decodeTemp(packet.getInt(32));
+      igbt5 = decodeTemp(packet.getInt(36));
+      igbt6 = decodeTemp(packet.getInt(40));
+
+      phaseAmps = decodeCurrent(packet.getInt(44)) * -1; // The controller inverts the data for some reason
+      reqPhaseAmps = decodeCurrent(packet.getInt(48));
+      maxAmps = decodeCurrent(packet.getInt(52));
+      fieldWeakening = decodeCurrent(packet.getInt(56));
+      //eRPM = decodeRPM(packet.getInt(60));
     }
   }
 
   // Decode a value from the packet
   private float decodeValue(int i) {
-    return new Float(Integer.reverseBytes(i)) / 100;
+    return new Float(Integer.reverseBytes(i));
+  }
+
+  // Decode a temp value from the packet
+  private float decodeTemp(int i) {
+    return decodeValue(i) / 100;
+  }
+
+  // Decode the RPM
+  private float decodeRPM(int i) {
+    float rpm = decodeValue(i);
+
+    // PHI Int * f_sample Hz (24.030Hz) / 65535 * 60 sec per min
+    return rpm * 24030 / 65535 * 60;
+  }
+
+  // Decode a current value from the packet
+  private float decodeCurrent(int i) {
+    // Raw value - 0 point (0x8000)
+    double current = new Double(Integer.reverseBytes(i)) - 0x8000;
+
+    // Divide by Clarke Factor (1.5)
+    // Divide by Scaling Factor (16)
+    // Divide by 10-bit ADC (1024)
+    // Multiply by 5v (since 0-5v range)
+    // Divide by mV/A for current sensor
+    return new Float(current / 1.5 / 16 / 1024 * 5 / 0.0014);
   }
 
   // private static final char[] HEX_ARRAY = "0123456789ABCDEF".toCharArray();
@@ -109,4 +146,10 @@ public class MuxData {
   public float igbt4;
   public float igbt5;
   public float igbt6;
+
+  public float phaseAmps;
+  public float reqPhaseAmps;
+  public float maxAmps;
+  public float fieldWeakening;
+  public float eRPM;
 }

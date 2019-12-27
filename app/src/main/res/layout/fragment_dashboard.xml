@@ -19,31 +19,41 @@
             android:layout_height="wrap_content">
 
             <TextView
-                android:id="@+id/label1"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="IGBT 1"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
                 android:id="@+id/label2"
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="IGBT 2"
-                android:textSize="18sp"
+                android:text="IGBT Temps"
+                android:textSize="32sp"
+                android:fontFamily="@font/digital7"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="500sp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Phase Current"
+                android:fontFamily="@font/digital7"
+                android:textSize="32sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/label3"
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="IGBT 3"
-                android:textSize="18sp"
+                android:text="DC-DC"
+                android:fontFamily="@font/digital7"
+                android:textSize="32sp"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -53,199 +63,229 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <com.github.anastr.speedviewlib.SpeedView
-                android:id="@+id/speedView1"
-                android:layout_width="230dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
-                app:sv_maxSpeed="125"
-                app:sv_minSpeed="0"
-                app:sv_speedTextColor="#ffffff"
-                app:sv_speedTextFormat="FLOAT"
-                app:sv_speedTextSize="18sp"
-                app:sv_textColor="#ffffff"
-                app:sv_tickNumber="6"
-                app:sv_unit="°C"
-                app:sv_unitTextColor="#ffffff"
-                app:sv_unitTextSize="18sp"
-                app:sv_unitUnderSpeedText="false"
-                app:sv_withTremble="false" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/igbt1"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/igbt2"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/igbt3"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical|end"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/igbt4"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical|end"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/igbt5"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical|end"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/igbt6"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical|end"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/label5"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="center"
+                    android:paddingRight="20dp"
+                    android:text="Max Phase Amps"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/maxAmps"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="right"
+                    android:paddingRight="40dp"
+                    android:text="0.0 A"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+
+                <TextView
+                    android:id="@+id/label4"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="center"
+                    android:paddingRight="20dp"
+                    android:text="Field Weakening"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fieldWeakening"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="right"
+                    android:paddingRight="60dp"
+                    android:text="0.0 A"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+            </LinearLayout>
 
             <com.github.anastr.speedviewlib.SpeedView
-                android:id="@+id/speedView2"
-                android:layout_width="230dp"
+                android:id="@+id/phaseAmps"
+                android:layout_width="500dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
-                app:sv_maxSpeed="125"
-                app:sv_minSpeed="0"
-                app:sv_speedTextColor="#ffffff"
+                android:padding="18dp"
+                app:sv_indicatorColor="#B1A9A9"
+                app:sv_indicatorWidth="18dp"
+                app:sv_lowSpeedPercent="10"
+                app:sv_maxSpeed="950"
+                app:sv_mediumSpeedColor="#2196F3"
+                app:sv_mediumSpeedPercent="90"
+                app:sv_minSpeed="-100"
+                app:sv_speedTextColor="#25FA0E"
                 app:sv_speedTextFormat="FLOAT"
-                app:sv_speedTextSize="18sp"
+                app:sv_speedTextSize="50sp"
+                app:sv_speedTextTypeface="@font/digital7"
                 app:sv_textColor="#ffffff"
-                app:sv_tickNumber="6"
-                app:sv_unit="°C"
-                app:sv_unitTextColor="#ffffff"
-                app:sv_unitTextSize="18sp"
+                app:sv_textSize="28sp"
+                app:sv_textTypeface="@font/digital7"
+                app:sv_tickNumber="8"
+                app:sv_unit="A"
+                app:sv_unitTextColor="#25FA0E"
+                app:sv_unitTextSize="50sp"
                 app:sv_unitUnderSpeedText="false"
+                app:sv_withIndicatorLight="false"
                 app:sv_withTremble="false" />
 
-            <com.github.anastr.speedviewlib.SpeedView
-                android:id="@+id/speedView3"
-                android:layout_width="230dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                app:sv_maxSpeed="125"
-                app:sv_minSpeed="0"
-                app:sv_speedTextColor="#ffffff"
-                app:sv_speedTextFormat="FLOAT"
-                app:sv_speedTextSize="18sp"
-                app:sv_textColor="#ffffff"
-                app:sv_tickNumber="6"
-                app:sv_unit="°C"
-                app:sv_unitTextColor="#ffffff"
-                app:sv_unitTextSize="18sp"
-                app:sv_unitUnderSpeedText="false"
-                app:sv_withTremble="false" />
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dcVoltage"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:text="0.0 V"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dcAmps"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/digital7"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:text="0.0 A"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dcTemp1"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dcTemp2"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_vertical|end"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:text="0.0 F"
+                    android:textColor="#25FA0E"
+                    android:textSize="42sp"
+                    android:fontFamily="@font/digital7"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/label4"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="IGBT 4"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/label5"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="IGBT 5"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/label6"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="IGBT6"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <com.github.anastr.speedviewlib.SpeedView
-                android:id="@+id/speedView4"
-                android:layout_width="230dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                app:sv_maxSpeed="125"
-                app:sv_minSpeed="0"
-                app:sv_speedTextColor="#ffffff"
-                app:sv_speedTextFormat="FLOAT"
-                app:sv_speedTextSize="18sp"
-                app:sv_textColor="#ffffff"
-                app:sv_tickNumber="6"
-                app:sv_unit="°C"
-                app:sv_unitTextColor="#ffffff"
-                app:sv_unitTextSize="18sp"
-                app:sv_unitUnderSpeedText="false"
-                app:sv_withTremble="false" />
-
-            <com.github.anastr.speedviewlib.SpeedView
-                android:id="@+id/speedView5"
-                android:layout_width="230dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                app:sv_maxSpeed="125"
-                app:sv_minSpeed="0"
-                app:sv_speedTextColor="#ffffff"
-                app:sv_speedTextFormat="FLOAT"
-                app:sv_speedTextSize="18sp"
-                app:sv_textColor="#ffffff"
-                app:sv_tickNumber="6"
-                app:sv_unit="°C"
-                app:sv_unitTextColor="#ffffff"
-                app:sv_unitTextSize="18sp"
-                app:sv_unitUnderSpeedText="false"
-                app:sv_withTremble="false" />
-
-            <com.github.anastr.speedviewlib.SpeedView
-                android:id="@+id/speedView6"
-                android:layout_width="230dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                app:sv_maxSpeed="125"
-                app:sv_minSpeed="0"
-                app:sv_speedTextColor="#ffffff"
-                app:sv_speedTextFormat="FLOAT"
-                app:sv_speedTextSize="18sp"
-                app:sv_textColor="#ffffff"
-                app:sv_tickNumber="6"
-                app:sv_unit="°C"
-                app:sv_unitTextColor="#ffffff"
-                app:sv_unitTextSize="18sp"
-                app:sv_unitUnderSpeedText="false"
-                app:sv_withTremble="false" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/dcVoltage"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textAlignment="center"
-                android:textColor="#25FA0E"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/dcTemp2"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="fill_vertical|end"
-                android:gravity="center"
-                android:textAlignment="viewStart"
-                android:textColor="#25FA0E"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/dcTemp1"
-                android:layout_width="230dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:textAlignment="textEnd"
-                android:textColor="#25FA0E"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-        </LinearLayout>
     </LinearLayout>
 
 
